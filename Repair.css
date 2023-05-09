@@ -1,0 +1,57 @@
+*{
+
+    margin: auto;
+    padding: 0;
+}
+
+.repair{
+
+    
+        width: 1000px;
+        height: 100%;
+       
+        margin: auto;
+        
+        align-items: center;  
+     
+}
+
+
+.demo  p{
+       font-size: 30px;
+       font-weight: bold;
+       padding-bottom: 400px;
+       margin-top: 90px;
+       color: rgb(253, 125, 5);
+       font-family: Verdana;
+       text-transform: uppercase;
+       line-height: 100px;
+       word-spacing: 5px;
+
+}
+
+
+body{
+
+
+    padding-top: 50px;
+    width: 100vw;
+    height: 100vh;
+   background-color:#00ff7f;
+  
+}
+@media screen and (min-width:200px) and (max-width:767px){
+
+    .repair{
+        width: 100%;
+        flex-direction: column;
+        display: block;
+    
+    
+    }
+    .demo{
+    margin: 10px 0px;
+    
+    }
+    
+}
